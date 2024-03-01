@@ -8,6 +8,7 @@
 
 */
 
+
 // an empty string
 console.log('');
 
@@ -20,3 +21,12 @@ console.log('cows say "moo"');
 // you can log more than one value
 //  just separate them with a coma
 console.log('hack', 'your', 'future');
+
+
+
+const firstName = "Hitomi";
+const lastName = 'Yamamoto';
+const name = 'Hello';
+name = firstName + ' ' + lastName;
+
+console.log('Hello, ' + name + '!');

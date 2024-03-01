@@ -1,11 +1,11 @@
 'use strict';
 
-let a = '*';
+let a = 'wow';
 // let a = '<>';
 // let a = '|-|';
 // let a = '';
 
-let b = '';
+let b = 'yay';
 while (b.length < a.length * 3) {
   b = b + a;
 }
