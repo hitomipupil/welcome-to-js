@@ -17,8 +17,14 @@
 // INITIALIZE the value to "hello"
 let x = 'hello';
 
+let sum;
+let a = 5;
+let b = 10;
+sum = a + b;
+
 // READ the value stored in `x`
 console.log(x);
+console.log(sum);
 
 // ASSIGN a new value to `x`
 x = 'good bye';

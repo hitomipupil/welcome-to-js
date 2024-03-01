@@ -1,13 +1,15 @@
 'use strict';
 
-let a = 'Ewin';
+// let a = 'Ewin';
 // let a = 'Tugba';
 // let a = 'Jo';
-// let a = 'Olesandra';
+let a = 'Olesandra';
 
 let b = 'Hello ' + a + ', your name is ';
 
-if (a.length > 4) {
+if (a.length > 8){
+  b = b + 'super long';
+} else if (a.length > 4) {
   b = b + 'long.';
 } else if (a.length === 4) {
   b = b + 'perfect.';
